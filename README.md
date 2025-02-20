@@ -1,75 +1,83 @@
-# Nuxt Minimal Starter
+# To-Do App with Nuxt.js
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A simple and elegant To-Do app built using **Nuxt.js**. This single-page application (SPA) allows users to manage their tasks with features like task completion, categories, due dates, filtering, and search.
 
-## Setup
+![To-Do App Screenshot](./screenshot.png) 
 
-Make sure to install dependencies:
+---
 
-```bash
-# npm
-npm install
+## Features
 
-# pnpm
-pnpm install
+- **Add Tasks**: Add new tasks with a description, category, and due date.
+- **Task Completion**: Mark tasks as completed with a checkbox.
+- **Task Categories**: Categorize tasks as Work, Personal, or Shopping.
+- **Due Dates**: Set due dates for tasks.
+- **Task Filtering**: Filter tasks by "All", "Completed", or "Incomplete".
+- **Task Search**: Search for tasks by their description.
 
-# yarn
-yarn install
 
-# bun
-bun install
-```
+---
 
-## Development Server
+## Technologies Used
 
-Start the development server on `http://localhost:3000`:
+- **Nuxt.js**: A Vue.js framework for building modern web applications.
 
-```bash
-# npm
-npm run dev
 
-# pnpm
-pnpm dev
+---
 
-# yarn
-yarn dev
+## Setup Instructions
 
-# bun
-bun run dev
-```
+### Prerequisites
 
-## Production
+- **Node.js**: Make sure you have Node.js installed on your machine. Download it from [here](https://nodejs.org/).
+- **npm**: npm is included with Node.js.
 
-Build the application for production:
+### Installation
 
-```bash
-# npm
-npm run build
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/KruthiNagabhushan/Web-App-using-NuxtJS-and-VUEX.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd todo-app
+   ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+4. Start the development server:
+    ```
+    npm run dev
+    ```
+5. Open your browser and visit:
+    ```bash
+    http://localhost:3000
+    ```
 
-# pnpm
-pnpm build
+## Usage
+1. Add a Task:
 
-# yarn
-yarn build
+    - Enter a task description in the input field.
 
-# bun
-bun run build
-```
+    - Select a category (Work, Personal, Shopping).
 
-Locally preview production build:
+    - Set a due date (optional).
 
-```bash
-# npm
-npm run preview
+    - Click "Add" or press Enter.
 
-# pnpm
-pnpm preview
+2. Mark a Task as Completed:
 
-# yarn
-yarn preview
+    - Check the checkbox next to the task.
 
-# bun
-bun run preview
-```
+3. Filter Tasks:
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+    - Use the filter buttons to view "All", "Completed", or "Incomplete" tasks.
+
+4. Search for Tasks:
+
+    - Use the search bar to find tasks by their description.
+
+5. Remove a Task:
+
+    - Click the × button next to the task to remove it.
